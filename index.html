@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>HTML Cheat Sheet</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+      <body>
+        <nav>
+          <a href="#basic-tags">BASIC TAGS</a>
+          <a href="#insertion-tags">INSERTION TAGS</a>
+          <a href="#formatting-tags">FORMATTING TAGS</a>
+          <a href="#style-tags">STYLE TAGS</a>
+          <a href="#heirarchy">HEIRARCHY</a>
+        </nav>
+          <br>
+        <header><h1>HTML TAGS & HEIRARCHY</h1>
+          <span><img src="https://lh3.googleusercontent.com/PPvv7A16P3NHRgVaMDcrVOmxIfX6VM-ZyGcDGI_eeuo00yh6BaGNhvQy_LeBBQ36pYaJHMWAQD7aAGuldpYutRUQw1RmwSiPu7VsgTzm5z9nk90gdiKO-Kh34Q1mtazTV18Ta_3L4w=w2400" alt="photo of Heather"><h5><em> - by Heather Maloney</em></h5></span>
+          <p>Coding HTML can be a tricky business.  Below you will find a cheat sheet 
+             for basic HTML tags and heirarchy to help you along the way.</p>
+        </header>
+
+        <div id="basic-tags">
+          <h2>Basic Tags</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Tag Name</th>
+                <th>Open <></th>
+                <th> Close <></th>
+                <th>Syntax Example <></th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody style='padding:5px 10px 5px 5px'>
+              <tr>
+                <td>HTML Start</td>
+                <td>html</td>
+                <td>/html</td>
+                <td></td>
+                <td>Denotes beginning and ending of HTML code.</td>
+              </tr>
+              <tr>
+                <td>Head</td>
+                <td>head</td>
+                <td>/head</td>
+                <td></td>
+                <td>Put invisible date here – metadata, website tab title, links to stylesheet, etc.</td>
+              </tr>
+              <tr>
+                <td>Body</td>
+                <td>body</td>
+                <td>/body</td>
+                <td></td>
+                <td>Put visible webpage data between tags - everything from header to footer.</td>
+              </tr>
+              <tr>
+                <td>Header</td>
+                <td>header</td>
+                <td>/header</td>
+                <td></td>
+                <td>Data that appears at the very top of the page.</td>
+              </tr>
+              <tr>
+                <td>Division</td>
+                <td>div</td>
+                <td>/div</td>
+                <td></td>
+                <td>Section/frames that appear on a page - 
+                    can adjust size and appearance individually. Can also give sections ID names.</td>
+              </tr>
+              <tr>
+                <td>Headings</td>
+                <td>h[1-6]</td>
+                <td>/h[1-6]</td>
+                <td></td>
+                <td>Section headings.  Sizes range from 1 (largest) to 6 (smallest).</td>
+              </tr>
+              <tr>
+                <td>Paragraph</td>
+                <td>p</td>
+                <td>/p</td>
+                <td></td>
+                <td>Paragraph content.</td>
+              </tr>
+              <tr>
+                <td>Unordered List</td>
+                <td>ul</td>
+                <td>/ul</td>
+                <td></td>
+                <td>Opens bullet point list.</td>
+              </tr>
+              <tr>
+                <td>Ordered List</td>
+                <td>ol</td>
+                <td>/ol</td>
+                <td></td>
+                <td>Opens numbered list.</td>
+              </tr>
+              <tr>
+                <td>List Detail</td>
+                <td>li</td>
+                <td>/li</td>
+                <td></td>
+                <td>Details each item in list.</td>
+              </tr>
+              <tr>
+                <td>Comments</td>
+                <td></td>
+                <td></td>
+                <td>!--comment here--></td>
+                <td>Insert INVISIBLE comments about your coding.</td>
+               </tr>
+            </tbody>
+                </table>
+            </div>
+
+            <div id="insertion-tags">
+              <h2>Insertion Tags</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Tag Name</th>
+                    <th>Open <></th>
+                     <th> Close <></th>
+                    <th>Syntax Example <></th>
+                     <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+              	    <td>Anchor Hyperlink</td>
+                    <td>a</td>
+                    <td>/a</td>
+                    <td>a href=”[insert hyperlink]”>Title of Hyperlink</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Image</td>
+                    <td>img</td>
+                    <td>/img</td>
+                    <td>img src=”[insert image link]”</td>
+                    <td>Insert image.  Good practice to add alt=”[description of image]” in opening tag for ADA purposes.</td>
+                  </tr>
+                  <tr>
+                    <td>Video</td>
+                    <td>video</td>
+                    <td>/video</td>
+                    <td></td>
+                    <td>Inserts ONLY video.  Add controls style in tag open.</td>
+                  </tr>
+                  <tr>
+                    <td>Audio</td>
+                    <td>audio</td>
+                    <td>/audo</td>
+                    <td></td>
+                    <td>Inserts audio files.  Add controls style in tag open.</td>
+                  </tr>
+                  <tr>
+                    <td>Embed</td>
+                    <td>embed</td>
+                    <td>/embed</td>
+                    <td></td>
+                    <td>Insert audio, video, images, etc.  Add controls style in tag open for audio or video.</td>
+                 	</tr>
+                </tbody>
+            	</table>
+            </div>
+
+            <div id="formatting-tags">
+                <h2>Formatting Tags</h2>
+								<table>
+									<thead>
+										<tr>
+											<th>Tag Name</th>
+											<th>Open <></th>
+											 <th> Close <></th>
+											<th>Syntax Example <></th>
+											 <th>Description</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Attributes - Names/Values</td>
+											<td></td>
+											<td></td>
+											<td>name="value"</td>
+											<td>Located inside opening tag.  Examples follow:</td>
+										</tr>
+										<tr>
+											<td>ID</td>
+											<td></td>
+											<td></td>
+											<td>id="id-name]</td>
+											<td>Give element an ID name.  Good for navigation and styling.</td>
+										</tr>
+										<tr>
+											<td>Style</td>
+											<td></td>
+											<td></td>
+											<td>style="color: green;"</td>
+											<td>Add formatting to line items/sections instead of using CSS.</td>
+										</tr>
+									</tbody>
+								</table>
+            </div>
+
+            <div id="style-tags">
+                <h2>Style Attributes</h2>
+								<table>
+									<thead>
+										<tr>
+											<th>Tag Name</th>
+											<th>Open <></th>
+											 <th> Close <></th>
+											<th>Syntax Example <></th>
+											 <th>Description</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>HTML Start</td>
+											<td>html</td>
+											<td>/html</td>
+											<td></td>
+											<td>Denotes beginning and ending of HTML code.</td>
+										</tr>
+										<tr>
+											<td>Head</td>
+											<td>head</td>
+											<td>/head</td>
+											<td></td>
+											<td>Put invisible date here – metadata, website tab title, links to stylesheet, etc.</td>
+										</tr>
+										<tr>
+											<td>Body</td>
+											<td>body</td>
+											<td>/body</td>
+											<td></td>
+											<td>Put visible webpage data between tags - everything from header to footer.</td>
+										</tr>
+										<tr>
+											<td>Header</td>
+											<td>header</td>
+											<td>/header</td>
+											<td></td>
+											<td>Data that appears at the very top of the page.</td>
+										</tr>
+									</tbody>
+								</table>
+            </div>
+            
+            <div id="heirarchy">
+                <h2>Heirarchy Sample</h2>
+            </div>
+        </body>
+        <footer>Contact Heather Maloney via email at: <a href = "mailto: stargazer0725@gmail.com">stargazer0725@gmail.com</a>
+        </footer>
+    </html>
